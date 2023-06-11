@@ -1,1 +1,44 @@
+#include <IRremote.h>
 
+int blinkPin = 8;
+int buzzerPin = 11;
+int motorPin = 6;
+
+IRrecv irrecv(blinkPin);
+decode_results results;
+
+long time;
+
+void setup() {
+   Serial.begin(9600);
+  // In case the interrupt driver crashes on setup, give a clue
+  // to the user what's going on.
+//Serial.println("Enabling IRin");
+  irrecv.enableIRIn(); // Start the receiver
+  irrecv.blink13(true);
+
+  pinMode(motorPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(blinkPin, INPUT);
+  digitalWrite(motorPin, HIGH);
+}
+
+void loop() {
+   if (irrecv.decode(&results)) {
+    Serial.println(results.value);
+     long unsigned int g=results.value;
+     Serial.println(g);
+    irrecv.resume(); // Receive the next value
+     if(g==16582903 ){
+     digitalWrite(buzzerPin,HIGH);
+    digitalWrite(motorPin,LOW);
+       delay(2000);
+     
+     }
+     if(g==16615543){
+         digitalWrite(buzzerPin,LOW);
+    digitalWrite(motorPin,HIGH);
+        delay(2000);
+     }    
+}
+}
