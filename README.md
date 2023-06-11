@@ -5,7 +5,9 @@ The purpose of this project is simple to avoid accidents during driving, as in o
 This device will actually detect the drowsiness of drivers and give alarm to wake up.<br/>
 
 ## Materials Required: -
-1. Breadboard: - For assembling the IR sensor, Relay board, Motor, and Arduino UNO.
+1. Breadboard: - For assembling the IR sensor, Relay board, Motor, and Arduino UNO.<br/>
+  ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/0c878b9d-ddd6-4636-90db-4715f53edf0c)
+
 2. Arduino Uno with cable: - The main brain of the circuit, operated when a code is uploaded using Arduino IDE software.<br/>
  ![image](https://user-images.githubusercontent.com/105349056/167857912-81f6cf28-8c8b-4a91-917d-96800a551cd9.png)
 3. IR Sensor: - For sensing drowsiness<br/>
