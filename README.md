@@ -2,19 +2,20 @@
 In this project I have made a prototype of Anti-sleep alarm device fpor drivers, which I have simulated in Tinkecad.
 https://www.tinkercad.com/things/h3nUHQaxxER-anti-sleep-alarm/editel
 The purpose of this project is simple to avoid accidents during driving, as in our country most of the accidents occur due the drowsiness of drivers.
-This device will actually detect the drowsiness of drivers and give alarm to wake up.
+This device will actually detect the drowsiness of drivers and give alarm to wake up.<br/>
 
 ## Materials Required: -
-1. Zero PCB board: - For assembling the IR sensor, Relay board, Motor, and Arduino UNO.![image](https://user-images.githubusercontent.com/105349056/167856977-8813d8fe-1d9e-45b2-bba1-8a1ad0c0a33f.png)
-2. Arduino Uno with cable: - The main brain of the circuit, operated when a code is uploaded using Arduino IDE software. ![image](https://user-images.githubusercontent.com/105349056/167857912-81f6cf28-8c8b-4a91-917d-96800a551cd9.png)
-3. IR Sensor: - For sensing the drowsiness, 
-4. ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/e02fe49b-84ad-4124-95de-432dc3c92722)
-5. SPDT Relay Module: 
-6. ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/af3ab887-7382-4487-acce-d1d66609a336)
-7. Battery: 
-8. ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/9f0e751c-b784-48da-98d8-620de77bc443)
-9. Buzzer: 
-10. ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/9c06db69-f86a-484f-8c9f-de3b6b07e840)
+1. Breadboard: - For assembling the IR sensor, Relay board, Motor, and Arduino UNO.
+2. Arduino Uno with cable: - The main brain of the circuit, operated when a code is uploaded using Arduino IDE software.<br/>
+ ![image](https://user-images.githubusercontent.com/105349056/167857912-81f6cf28-8c8b-4a91-917d-96800a551cd9.png)
+3. IR Sensor: - For sensing drowsiness<br/>
+ ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/e02fe49b-84ad-4124-95de-432dc3c92722)
+4. SPDT Relay Module: <br/>
+ ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/af3ab887-7382-4487-acce-d1d66609a336)
+5. Battery:<br/>
+ ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/9f0e751c-b784-48da-98d8-620de77bc443)
+6. Buzzer: <br/>
+ ![image](https://github.com/pk-github-iitr/Anti-sleep-alarm-for-drivers/assets/105349056/9c06db69-f86a-484f-8c9f-de3b6b07e840)
 
 
 
